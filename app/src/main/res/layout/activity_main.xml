@@ -29,4 +29,10 @@
         tools:layout_editor_absoluteX="82dp"
         tools:layout_editor_absoluteY="284dp"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="484dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
