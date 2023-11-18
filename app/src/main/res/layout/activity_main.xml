@@ -24,9 +24,23 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="295dp"
-        android:layout_height="447dp"
-        tools:layout_editor_absoluteX="82dp"
+        android:layout_width="351dp"
+        android:layout_height="250dp"
+        tools:layout_editor_absoluteX="26dp"
         tools:layout_editor_absoluteY="284dp"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="618dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
